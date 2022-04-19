@@ -1,0 +1,29 @@
+{
+	"name": "raw-kubernetes",
+	"version": "0.0.1",
+	"description": "A raw simulation of Kubernetes",
+	"scripts": {
+		"start": "parcel src/index.html -p 8023",
+		"build": "parcel build src/index.html --out-dir dist",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Norbert Graf",
+	"devDependencies": {
+		"@types/node": "^13.13.5",
+		"minimist": ">=1.2.2",
+		"parcel-plugin-clean-easy": "^1.0.2",
+		"parcel-plugin-static-files-copy": "^2.2.1",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"phaser": "^3.55.2",
+		"phaser3-rex-plugins": "^1.1.68"
+	},
+	"parcelCleanPaths": [
+		"dist"
+	],
+	"staticFiles": {
+		"staticPath": "public",
+		"watcherGlob": "**"
+	}
+}
