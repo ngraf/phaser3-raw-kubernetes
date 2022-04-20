@@ -1,7 +1,7 @@
 # phaser3-raw-kubernetes
 About
 ----
-Source code for an educational browser about the basics of [Kubernetes](https://kubernetes.io).
+Source code for an educational browser game about the basics of [Kubernetes](https://kubernetes.io).
 
 How to play
 -----
